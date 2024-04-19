@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply text-zinc-400 font-light font-sans overflow-x-hidden
+  }
+}
+
+
