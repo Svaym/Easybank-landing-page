@@ -5,7 +5,6 @@ export default function Header() {
   const [click, setclick] = useState(false);
   function mobileMenu() {
     setclick(!click)
-    console.log('Well done!')
   }
   return (
     <header className="py-7 z-20 bg-white relative ">
